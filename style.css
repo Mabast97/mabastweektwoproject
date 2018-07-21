@@ -1,0 +1,499 @@
+* { color: #615c54; }
+
+p {font-family: 'Poiret One', cursive; font-size: 1.1em}
+
+.wrapper
+{
+    margin: 0 auto;  width: 880px;
+    background-color: #f6f6f7;
+}
+
+
+#header
+{
+    background-image: url(images/6.jpg);
+    background-position: center;
+    width: 100%; height: 100%; 
+}
+
+header nav
+{
+    display: flex; flex-direction: row-reverse;
+    width: 100%; height: 60px;
+}
+
+nav a
+{
+    display: inline-block; text-decoration: none; 
+    font-size: 1.4em;
+    margin-right: 25px; color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+nav a:hover
+{
+    color: white;
+    background-color: gray;
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+#selected
+{
+    color: white;
+    background-color: gray;
+    opacity: 0.7;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.menu-icon { visibility: hidden;}
+
+.topspace
+{
+    margin-top: 15%; height: 250px;
+}
+
+.flex
+{
+    display: flex; flex-direction: row; position: relative;
+}
+
+.flexReverse{ display: flex; flex-direction: row-reverse;}
+
+#visitors
+{ 
+    width: 280px; 
+    height: 260px; 
+    background: white; 
+    border: 1px solid gray; 
+    border-radius:10px;
+    position: absolute;
+    right: 20px;
+    padding: 15px;
+}
+
+.right
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+.in input
+{
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 2px;
+    width: 140px;
+    text-align: center;
+    font-size: 1.3em;
+    margin-left: 25%;
+}
+
+#visitors input[type="submit"]
+{
+    margin-top: 20px; margin-left: 60px;
+    width: 170px;  height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.in input[type="number"] 
+{ 
+    width: 30px; height: 20px;
+}
+
+.in
+{
+    text-align: right; margin-left:auto; margin-right: 10px;
+}
+
+#text
+{
+    width: 100px; margin: 80px 0 10px 50px;
+    line-height: 2.7em;
+}
+
+#text h1 { font-weight: lighter; }
+
+.col-5 {width: 60%;}
+
+.col-4 { width: 50%; }
+
+.col-3 { width: 33%; }
+
+.col-2 { width: 66%; }
+
+.col-1 { width: 100%; }
+
+.col-2 .image {  width: 100%; height: 80% }
+
+#div1
+{
+    column-count: 3;
+    padding-bottom: 60px;
+}
+
+
+.center
+{
+    margin-top: 80px;
+    text-align: center; font-size: 1.4em;
+}
+
+.center div
+{
+    padding-top: 30px;
+}
+
+.leftSpace
+{
+    margin-left: 20px; margin-right: 10px;
+}
+
+.leftSpace button, .margin button
+{
+    width: 220px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.1em;
+}
+
+.im img
+{
+    width: 250px; height: 200px;
+    padding-bottom: 10px;
+}
+
+.im
+{
+    padding: 50px; width: 50%;
+}
+
+.im i
+{
+    margin-right: 5%; 
+}
+
+.guests div
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 35px;
+    height: 400px
+}
+
+.guests div p, .guests div h3
+{
+    font-size: 0.9em;
+}
+
+::placeholder {color: black;}
+
+footer {background-color: #544d41;}
+
+
+#stay
+{
+    color: white;
+     margin-left: 20px;
+}
+
+#stay input
+{
+    width: 225px;
+    height: 24px;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#stay input[type='button']
+{
+    border: 1.5px solid white;
+    outline: none;
+    width: 237px;
+    height: 30px;
+    background-color: #544d41;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+h1,h2,h3 { text-align: center; word-spacing: 0.4em; color: #88837b; font-weight: lighter; font-family: 'Julius Sans One', sans-serif;}
+
+#rightFooter
+{
+    margin: auto 0 auto 40%;
+}
+
+#rightFooter i
+{
+    color: white;
+    font-size: 2em;
+}
+
+#rightFooter a 
+{ 
+    display: inline-block; margin-right: 15%; 
+}
+
+
+
+
+
+
+
+
+/*------- ROOMS PAGE --------*/
+.wrapper2
+{
+   margin: 0 auto;  width: 900px;
+}
+
+#color { background-color: #f6f6f7; }
+
+#leftText
+{
+    width: 100px;
+    font-size: 1.3em;
+    margin-left: 2%;
+}
+
+#leftText a
+{
+    text-decoration: none; display: block;
+    font-weight: lighter; cursor: pointer;
+}
+
+#rightNav
+{
+    position: absolute;
+    right: 4px;
+}
+
+#roomNav
+{
+    background-color: white;
+}
+
+#feature h1
+{
+    text-align: center;
+    font-size: 2em;
+    background-color: #f6f6f7;
+    padding: 35px;
+}
+
+.margin
+
+{  
+    margin-left: 9%; margin-right: 9%; 
+}
+
+#im1
+{
+    width: 100%; height: 100%;
+}
+
+#b1
+{
+    margin-top: 80px; margin-left: 22%;
+    width: 200px; height: 45px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer; 
+}
+
+#leftShade
+{
+    background-color: #f6f6f7;
+    height: 100px;
+}
+
+#standardRooms 
+{ 
+    background-color: #f6f6f7; 
+    padding-top: 7%;
+    text-align: center;
+}
+
+#rightImg { width: 40%; margin-top: -100px;}
+
+#rightImg img { width: 100%; height: 100%;}
+
+
+
+#bottomShadeImg
+{
+   width: 100%; 
+    background-color: lightcyan;
+    
+}
+
+.smallImage
+{
+    width: 100%; height: 150px; 
+}
+
+.divs
+{
+    background-color: white;
+    text-align: center;
+}
+
+#standardRooms button
+{
+    width: 200px; height: 45px;
+    margin: 40px 0;
+    background-color: #f6f6f7;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;    
+}
+
+#bottomShadow
+{
+    box-sizing: border-box;
+    padding: 0 10%; 
+    background-color: white;
+}
+
+#bottomShadow button
+{
+    width: 200px; height: 45px;
+    margin: 40px 0;
+    background-color: white;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer; 
+}
+
+
+
+
+/*--------- CONTACT PAGE ----------*/
+#contactSection
+{
+    background-image: url(images/3.jpg);
+    background-position: center;
+    background-position: center;
+    width: 100%;  height: 500px;
+    background-size: contain;
+    background-size: cover;
+    
+}
+
+#contactText
+{
+    width: 285px;  height: 60px;
+    background-color: ghostwhite;
+    opacity: 0.7;
+    padding-top: 1px; padding-bottom: 40px;
+    font-size: 1.7em;
+    position: relative;
+    top: 100px; left: 35%;    
+}
+
+#contactText h1 { font-weight: lighter;}
+
+#location 
+{
+    width: 100%;  height: 100%;
+    padding: 8% 0; display: flex;
+}
+
+#leftLocation
+{
+    width: 60%;
+}
+
+#leftLocation iframe
+{
+    width: 100%; height: 350px;
+    
+}
+
+#rightLocation
+{
+    margin-left: 5%;  width: 40%
+}
+
+#location .icons
+{
+    width: 100%;  height: 70px;
+    padding-top: 20px;
+}
+
+.icons i 
+{ 
+    margin-right: 20px; font-size: 1.7em;
+}
+
+.icons address, .icons p
+{
+    margin-top: -1px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#inTouch { background-color: white; display: flex; flex-direction: row-reverse}
+
+.form { text-align: center;}
+
+.right { width:40%; }
+
+.right img
+{
+    width: 100%; height: 100%;
+}
+
+.form input, .form textarea
+{
+    width: 35%;
+    height: 25px;
+    margin-top: 20px;
+    outline: none;
+    border: 1.9px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form textarea { height: 100px; resize: none;}
+
+.form input[type="submit"]
+{
+    background-color: #544d41; color: lightgray;
+    height: 30px; width: 38%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
