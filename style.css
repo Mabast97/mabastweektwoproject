@@ -94,9 +94,12 @@ nav a:hover
 #visitors input[type="submit"]
 {
     margin-top: 20px; margin-left: 60px;
-    width: 170px;  height: 40px;
-    border-radius: 10px;
+    width: 175px;  height: 40px;
+    border-radius: 8px;
     cursor: pointer;
+    background-color: white;
+    outline: none;
+    border: 2px solid black;
 }
 
 .in input[type="number"] 
