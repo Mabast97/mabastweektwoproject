@@ -1,0 +1,194 @@
+<!-- I wrote the code, but that the design was from a template. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link rel="stylesheet" type="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>Welcome To SWEET DREAMS HOSTEL</title>
+</head>
+<body>
+
+   <div class="wrapper"> 
+    <header id="header">
+        <nav>
+            <a href="rooms.html" id="selected">Book A Room</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">FAQ</a>            
+            <a href="#">About Us</a>
+            <a class="menu-icon"><i class="fas fa-bars"></i></a>
+        </nav>
+
+        <div class="flex topspace">
+          <div id="text">
+            <h1>SWEET DREAMS HOSTEL</h1> 
+          </div>
+            
+          <div id="visitors">
+              <div class="right">
+              <span>Visitors</span>
+                  <div class="in"><input type="number" readonly value="2"/> </div>
+              </div>
+              
+              <div class="right">
+              <span>Check-in</span>
+              <div class="in"><input type="date"/> </div>
+              </div>
+              
+              <div class="right">
+              <span>Check-out</span>
+                  <div class="in"><input type="date"/></div>
+              </div>
+              <input type="submit" value="Continue"/>
+          </div>
+        </div>
+    </header>
+
+
+       
+        
+        <section class="center" id="mobRespo" >
+            <!-- services -->
+            <h2 >OUR SERVICES</h2>
+            
+            <div id="div1">
+                 <!-- services is flex display. -->
+                <div>
+                <i class="fas fa-shower"></i>
+                <h5>Hot And Cold Water</h5>
+                </div>
+                
+                <div>
+                <i class="fas fa-camera"></i>
+                <h5>Discount On Daily Tours</h5>
+                </div>
+                
+                <div>
+                <i class="fas fa-key"></i>
+                <h5>Private Lockers in Rooms</h5>
+                </div>
+                
+                
+                <div>
+                <i class="fas fa-credit-card"></i>
+                <h5>We Accept All Major Credit Cards</h5>
+                </div>
+                
+                
+                <div>
+                <i class="fas fa-wifi"></i>
+                <h5>Wifi Access in All Rooms</h5>
+                </div>
+                
+                <div>
+                <i class="fas fa-utensils"></i>
+                <h5>Free Breakfast</h5>
+                </div>
+                
+            </div>
+        </section>
+
+    
+    
+        <section class="flex">    <!-- rooms info -->
+            <div class="col-2" >
+                <img class="image" src="images/10.jpg" alt="a beautiful bed" title="welcome to the website"/>
+            </div>
+            
+            <div class="col-3 leftSpace" >
+                <h2>
+                    OUR ROOMS ARE BIG AND BEAUTIFUL
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                     Quasi hic quas, rerum numquam temporibu
+                     s sapiente vel ad dicta ipsum soluta doloribus
+                      repellat reprehenderit consequuntur, illum beata
+                      olestiae ipsam ex expedi
+                     s sapiente vel ad dicta ipsum soluta doloribus
+                      repellat reprehenderit consequuntur, illum beata
+                      olestiae ipsam ex expedi
+                     s sapiente vel ad dicta ipsum soluta doloribus
+                      repellat repreheus
+                      repellat reprehenderit consequuntur, illum beata
+                      olestiae ipsam ex expedi
+                     s sapiente vel ad dicta ipsum soluta doloribus
+                      repellat reprehenderit consequuntur, illum beata
+                      olestiae ipsam ex expedita!
+                </p>
+                <button>See Our Rooms</button>
+            </div>
+        </section>
+        
+        
+        
+
+        <section class="center">  <!-- for guests -->
+            <h2>WHAT OUR <br> GUESTS SAY ...</h2>
+            <div class="guests flex col-1">
+                <div class="col-2 im">
+                <img src="images/4.jpg" alt="a girl in front of the roud" />
+                <p>
+                    "beautiful rooms, delicious breakfast, amazing people. I would
+                    absolotely recommend this place!"
+                </p>
+                <h3>- AMINA FROM CANADA</h3>
+                
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    
+            </div>
+            
+            <div class="col-2 im">
+                    <img src="images/2.jpg" alt="a boy with handsome sunglasses" />
+                    <p>
+                        "There is such a great atmosphere in this place.
+                        The staff is so helpful and friendly and the daily
+                        tours are a lot of fun!"
+                    </p>
+                    <h3>- JACOB FROM AUTRIA</h3>
+                    
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+            </div>            
+        </div>
+        </section>
+
+    
+
+    <footer id="footer" class="col-1 flex">
+        <div id="stay" class="col-3"> <!-- must be align left -->
+            <h3>STAY IN TOUCH</h3>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" /><br/>
+                <input type="email" placeholder="Your Email" /><br/>
+                <input type="button" value="Sign me up!" />
+            </form>
+        </div>
+
+        
+        <div class="flex col-3" id="rightFooter">
+            
+            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            
+        </div>
+    </footer>
+</div> <!-- .wrapper -->
+
+</body>
+</html>
