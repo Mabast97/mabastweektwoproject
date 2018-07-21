@@ -497,3 +497,240 @@ h1,h2,h3 { text-align: center; word-spacing: 0.4em; color: #88837b; font-weight:
 
 
 
+
+@media only screen and (max-width:935px)
+{
+    .wrapper, .wrapper2
+    {
+        width: 85%;
+    }
+        
+    #visitors
+    {
+    width: 290px; 
+    height: 265px; 
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+    }
+    
+    .col-2 .image 
+    {  width: 90%; height: 80% }
+    
+    .leftSpace button
+    {
+    width: 200px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.1em;
+    }
+      @media only screen and (max-width: 800px)   and (min-width: 500px)
+      {
+          .leftSpace button
+          {
+              width: 100%;
+              font-size: 1em;
+          }
+          
+          #rightFooter a
+           {
+            margin-right: 8%;
+           }
+      }
+    
+    .guests div
+    {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    }
+    
+    .im
+    {
+        padding: 5%;  width: 50%;
+        
+    }
+    
+    .im img
+    {
+        width: 90%;
+    }
+    
+    #rightFooter
+    {
+    margin: auto 0 auto 30%;
+    }
+    
+    .guests div p, .guests div h3
+    {
+    font-size: 0.7em;
+    }
+
+    .im i
+    {
+    margin-right: 2%; 
+    }
+    
+        @media only screen and (max-width: 625px)
+        {
+         .im i
+        {
+        margin-right: 0;  font-size: 0.9em;
+        }
+        
+            
+        .icons i { font-size: 2em; }
+        }
+    
+    #contactText
+    {
+    width: 280px;  height: 60px;
+    background-color: white;
+    opacity: 0.7;
+    padding-top: 2px; padding-bottom: 25px;
+    font-size: 1.4em;
+    position: relative;
+    top: 100px; left: 30%;
+    }
+    
+    .icons address, .icons p { font-size: 1em;}
+    
+    .icons i { margin-right: 5%;}
+
+    #rightLocation { margin-left: 1%;}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px)
+    /* for TABLET */
+{
+    .menu-icon
+    {
+        visibility: visible;
+        font-size: 2.8em;
+        position: absolute;
+    }
+    
+    
+    nav a:hover
+    {
+    color: black; cursor: pointer;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px
+
+    }
+    
+    header nav, #rightNav
+    {
+        visibility: hidden;
+    }
+    
+    #visitors
+    {
+    width: 245px; 
+    height: 265px; 
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    }
+    .in input
+    {
+    margin-left: 50px;
+    width: 140px;
+    text-align: right;
+    font-size: 1.3em
+    }
+    
+    #text
+    {
+    width: 100px; margin: 80px 0 10px 10px;
+    line-height: 2.7em; 
+    }
+    
+    #rightFooter a
+      {
+       margin-right: 5%;
+      }
+    
+   .guests div p, .guests div h3
+    {
+        font-size: 0.6em;
+    }
+    
+    .im i
+    {
+    margin-right: 0;  font-size: 0.7em;
+    } 
+    
+    #leftShade { height: 50px;}
+    
+    #rightImg { width: 40%; margin-top: -50px;}
+    
+    #b1
+    {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    }
+    
+    #location
+    {
+        display: block; width: 100%;
+    }
+    
+    #leftLocation
+    {
+        margin:0 auto;  width: 94%;
+    }
+    
+    #leftLocation iframe { height: 290px;}
+    
+    #rightLocation
+    {
+    margin-left: 15%;  width: 60%
+    }
+    
+    #rightLocation h2{ margin: 0 auto; padding-top: 30px;}
+    
+    #inTouch
+    {
+        background-color: white; display: block;
+        
+    }
+    
+    #inTouch .right { width:60%; margin: 0 auto}
+
+    #inTouch .right img
+    {
+    width: 100%; height: 100%;
+    }
+    
+    #hh
+    {
+        margin: 0 auto; padding: 30px 0;
+    }
+    
+    #hh input, #hh textarea
+    {
+        width: 75%;
+    }
+    
+    #leftLocation iframe { padding-top: 20px; }
+    
+    
+}   /* FOR TABLETS */
+
+
+
+
+
+
